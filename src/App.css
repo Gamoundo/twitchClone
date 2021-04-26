@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.chatbox {
+  display: flexbox;
+  width: 20rem;
+  background-color: black;
+  color: blanchedalmond;
+  height: 100vh;
+  text-align: left;
+  
+}
+
+.chat{
+  margin: 1rem;
+}
