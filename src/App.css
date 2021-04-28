@@ -38,6 +38,8 @@
 }
 
 .chatbox {
+  position: absolute;
+  right: 0;
   display: flexbox;
   width: 20rem;
   background-color: black;
