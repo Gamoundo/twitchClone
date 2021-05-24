@@ -48,9 +48,9 @@ handleSubmit= (e) => {
         return(
             <div className="chatbox">
                 {this.displayMessages(this.state.messages)}
-                <form onSubmit={this.handleSubmit}>
-                    <input type="text" name="text"/>
-                    <button type="submit"> Chat</button> 
+                <form  className="chatBtn" onSubmit={this.handleSubmit}>
+                    <input  type="text" name="text"/>
+                    <button  type="submit"> Chat</button> 
                 </form>
             </div>
         )

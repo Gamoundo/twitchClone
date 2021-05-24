@@ -1,5 +1,9 @@
+body{
+  background-color: fuchsia;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -51,4 +55,13 @@
 
 .chat{
   margin: 1rem;
+}
+
+.chatBtn {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.nav {
+  background-color: #282c34;
 }

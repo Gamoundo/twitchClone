@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 function Navi() {
     return(
-        <div>
+        <div className="nav">
             <h1>hi</h1>
         </div>
     )
