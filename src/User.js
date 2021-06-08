@@ -1,23 +1,32 @@
 import React  from "react";
+import ReactPlayer from 'react-player'
 
 class User extends React.Component {
 
     state = {
         userName: "Bob",
         followers: 0,
-        profilePic: "https://www.tynker.com/projects/screenshot/575088a4588161fe118b4573/derp-face.png"
+        profilePic: "https://www.tynker.com/projects/screenshot/575088a4588161fe118b4573/derp-face.png",
+        following: []
     }
 
     render () {
         return(
-            <div className="info">
-                <div>
+            <div >
+                
+                <div className="video">
+                    <ReactPlayer url="https://www.youtube.com/watch?v=aoYEQgG4-JY" />
+                </div>
+                <div className="info"> 
+                <div >
                   <img className="image" src={this.state.profilePic} alt="face"/>
                   <p> {this.state.followers} followers</p>
                 </div>
-                <div>
+                <div className="about">
                    <h1>{this.state.userName}</h1>
                 </div>
+                </div>
+                
                 
 
             </div>
